@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Git Search - User Not Found</title>
-  </head>
-  <body>
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-    <script type="module" src="../scripts/error.js"></script>
-  </body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/error.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+  <link rel="stylesheet" href="../styles/reset.css">
+
+  <title>Git Search - User Not Found</title>
+</head>
+
+<body>
+  <main>
+    <div class="error__container">
+      <div class="error__infos">
+        <div class="error__text">
+          <h1>Ooops!</h1>
+          <p>Não encotramos o usuário que você procurou,
+            vamos tentar novamente.</p>
+          <a href="/">Nova Busca</a>
+        </div>
+        <div class="error_img">
+          <img class="error__purpleImage" src="/src/img/Rectangle112.png" alt="purpleRectangle">
+          <img class="error__pinkImage" src="/src/img/Rectangle113.png" alt="pinkRectangle">
+          <img class="error__exclamation" src="/src/img/exclamtion.png" alt="exclamation">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="../scripts/error.js"></script>
+</body>
+
 </html>

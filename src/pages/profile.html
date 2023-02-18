@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Git Search - User Profile</title>
-  </head>
-  <body>
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-    <script type="module" src="../scripts/profile.js"></script>
-  </body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/profile.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+  <link rel="stylesheet" href="../styles/reset.css">
+
+  <title>Git Search - User Profile</title>
+</head>
+
+<body>
+  <main>
+    <header class="header__container">
+      <nav class="user__container">
+        <div class="user__infos">
+          <img src="/src/img/1662954279008 1.png" alt="user">
+          <h1 class="user__name">Samuel Leão</h1>
+        </div>
+        <a href="/">Trocar de usuário</a>
+      </nav>
+    </header>
+    <div class="users__container">
+      <div class="infos__container">
+        <div class="infos__user">
+          <h1 class="user_project">Porject Module 2 -Kenzie</h1>
+          <p class="project_description">Various versions have evolved over the years, sometimes by accident,
+            sometimes on purpose injected humour and the like</p>
+        </div>
+        <a class="" href="https://api.github.com/users/AiresJr/repos">Repositorio</a>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="../scripts/profile.js"></script>
+
+</body>
+
 </html>
